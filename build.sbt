@@ -5,7 +5,7 @@ name := "akka-in-action"
 
 version := "1.0"
 
-scalaVersion := "2.12.3"
+scalaVersion := "2.12.4"
 
 lazy val akkaVersion = "2.5.6"
 
@@ -34,6 +34,8 @@ lazy val `akka-in-action` = project
       "org.slf4j" % "slf4j-simple" % "1.7.25",
       "com.twitter" %% "chill-akka" % "0.9.2",
       "de.heikoseeberger" %% "akka-http-circe" % "1.18.0",
+      "com.github.nscala-time" %% "nscala-time" % "2.14.0",
+      "org.typelevel" %% "cats" % "0.9.0",
       "com.typesafe.akka" %% "akka-multi-node-testkit" % akkaVersion % Test,
       "org.scalatest" %% "scalatest" % "3.0.1" % "test"
     ),
