@@ -30,6 +30,8 @@ lazy val `akka-in-action` = project
       "com.typesafe.akka" %% "akka-http-spray-json" % akkaHttpVersion,
       "com.typesafe.akka" %% "akka-stream" % akkaVersion,
       "com.typesafe.akka" %% "akka-slf4j" % akkaVersion,
+      "com.typesafe.akka" %% "akka-contrib" % akkaVersion,
+      "com.typesafe.akka" %%  "akka-multi-node-testkit" % akkaVersion,
       "ch.megard" %% "akka-http-cors" % "0.2.1",
       "org.slf4j" % "slf4j-simple" % "1.7.25",
       "com.twitter" %% "chill-akka" % "0.9.2",
